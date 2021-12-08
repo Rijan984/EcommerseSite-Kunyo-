@@ -1,0 +1,454 @@
+*{margin:0;
+	padding:0;}
+
+.main_head
+{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.main_head p
+{
+	text-align: center;
+}
+.main
+{
+	margin-top: 10px;
+	
+}
+.first
+{
+	float: left;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+}
+.second
+{
+	width:20%;
+	height: 50px;
+	float: left;
+	margin-left: 5px; 
+	text-align: center;
+	
+}
+.third
+{
+	float: left;
+	width: 15%;
+	height: 50px;
+	
+	
+}
+.signin
+{
+	float: left;
+	width: 10%;
+	height: 50px;
+	margin: 0 2.5% 0 2.5%;
+	text-align: center;
+	
+
+}
+.signin p
+{
+	margin-top: 10px;
+}
+
+.search
+{
+	float: left;	
+	width:15%;
+	margin-top: 9px;
+	margin-left: 10px;
+	
+}
+.search input
+{
+	padding: 5px;
+	width:95%;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+	outline: none;
+}
+.fa-search
+{
+	margin-left: -25px;
+}
+
+
+.head
+{
+	width: 100%;
+	float: left;
+	background: #170D23;
+	height:50px;
+	}
+.header
+{
+	float: left;
+	width:100%;
+	text-align: center;
+	margin-top: 15px;
+	color: white;
+}
+.header ul
+{
+	list-style-type: none;
+	margin-left: 30%;
+}
+.header ul li
+{
+	float: left;
+	margin: 0 2% 0 1%;
+	font-size: 15px;
+}
+.header ul li a:hover
+{
+	color: red;
+	
+}
+.header ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.body
+{
+	float: left;
+	width: 90%;
+	margin: 2% 5% 0 5%;
+	
+}
+.body h2
+{
+	text-align: center;
+	margin:0 0 2% 0;
+}
+.content
+{
+	float: left;
+	width: 90%;
+	margin: 3% 2.5% 0 2.5%;
+}
+.content p
+{
+	text-align: justify;
+	color: black;
+	font-style: oblique;
+}
+.p2
+{
+	width: 100%;
+	
+	float: left;
+	text-align: center;
+	color: black;
+	line-height: 40px;
+	font-size: 20px;
+}
+.con
+{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	height: 380px;
+	box-shadow: 1px 1px 5px 1px;
+}
+.con:hover
+{
+	margin-top: -10px;
+	background: gray;
+
+}
+.con-1
+{
+	margin-left: 2.5%;
+}
+.con-2
+{
+	margin-right: -2.5%;
+}
+.pubg
+{
+	background: url("images/pubg_mobile.jpg");
+	background-size: cover;
+	height: 200px;
+	background-position: center;
+	
+	margin-top: 10px;
+}
+.coc
+{
+	background: url("images/clashofclans.jpg");
+	background-size: cover;
+	height: 200px;
+	background-position: center;
+	
+	margin-top: 10px;
+}
+
+.freefire
+{
+	background: url("images/free_fire.jfif");
+	background-size: cover;
+	height: 200px;
+	background-position: center;
+	
+	margin-top: 10px;
+}
+
+.mbl
+{
+	background: url("images/mbl.jpg");
+	background-size: cover;
+	height: 200px;
+	background-position: center;
+	
+	margin-top: 10px;
+}
+
+.games
+{
+	width: 95%;
+	margin: 5% 2.5% 0 2.5%;
+	
+}
+
+#nxt_prv
+{
+	float: left;
+    width: 100%;	
+	box-shadow: 1px 1px 10px 5px;
+	margin-top: 20px;
+}
+.carousel-item img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.carousel-control-next-icon
+{
+	width: 30px;
+	height: 30px;
+}
+.carousel-control-prev-icon
+{
+	width: 30px;
+	height: 30px;
+}
+.carousel-caption a
+{
+	text-decoration: none;
+	color: white;
+	box-shadow: 1px 1px 10px 4px;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.pics
+{
+	float: left;
+	width: 90%;
+	margin: 10px 5% 0 5%;
+}
+
+.footer
+{
+	width: 100%;
+	float: left;
+	background: #000;
+	height: auto;
+	opacity: 85%;
+}
+
+.left
+{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.lower-left
+{
+	width: 30%;
+	margin: 0 0 0 15%;
+	float: left;
+	color: white;
+	
+}
+.lower-left .fab
+{
+	font-size: 30px;
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+.lower-right
+{
+	width: 40%;
+	margin: 0 5% 0 5%;
+	float: left;
+	color: white;
+	text-align: center;
+}
+.icons
+{
+	width: 40%;
+	float: left;
+	margin: 0 30% 0 30%;
+}
+.contact
+{
+	width: 60%;
+	float: left;
+	margin: 0 10% 0 30%;
+}
+.lower-left h4 
+{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.footer h4
+{
+	color: white;
+	margin-top: 2.5%;
+}
+
+.footer i
+{
+	font-size: 20px;
+	float: left;
+    color: white;
+}
+
+.footer p
+{
+	color: white;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.first
+	{
+		width: 100%;
+		float: left;
+	}
+	.second
+	{
+		width: 50%;
+		float: left;
+		color: gray;
+		margin: 0 0 10px 0;
+	}
+	.third
+	{
+		width: 50%;
+		float: left;
+		margin: 0 0 10px 0;
+		color: gray;
+	}
+	.signin
+	{
+		width: 40%;
+		float: left;
+		margin:0 5% 0 5%;
+	}
+	.search
+	{
+		width: 40%;
+		float: left;
+		margin:0 0 0 0;
+		margin:0 5% 0 5%;
+	}
+	.head
+	{
+		height: 50px;
+	}
+	.header
+	{
+		width: 100%;
+		float: left;
+		margin-left: 0;
+
+	}
+	.header ul
+	{
+		margin-left: 18%;
+	}
+	.header ul li
+	{
+		margin-right: 3%;
+		margin-left: 0;
+		font-size: 15px;
+	}
+	.pics
+    {
+	    float: left;
+	    width: 100%;
+	    margin: 5px 0 0 0;
+    }
+
+	.con
+	{
+		width: 40%;
+		margin: 5% 5% 5% 5%;
+		float: left;
+		height: 390px;
+	}
+	.lower-left
+	{
+		width: 90%;
+		float: left;
+		margin: 0 5% 0 5%;
+	}
+	.lower-right
+	{
+		width: 90%;
+		float: left;
+		margin: 5% 5% 0 5%;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	.head
+	{
+		height: 50px;
+	}
+	.header
+	{
+		width: 100%;
+		float: left;
+		margin-left: 0;
+
+	}
+	.header ul
+	{
+		margin-left: 6%;
+	}
+	.header ul li
+	{
+		margin-right: 5%;
+		margin-left: 0;
+		font-size: 15px;
+		
+	}
+
+	.con
+	{
+		width: 90%;
+		margin: 5% 5% 5% 5%;
+		float: left;
+		height: auto;
+	}
+}
+
+
+
